@@ -1,0 +1,21 @@
+.sidebar {
+  height: 100%;
+  width: 112px;
+  //position:;
+  z-index: 500;
+  top: 0;
+  left: 0;
+  background-color: #ff0000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+main {
+  margin-left: 112px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+
+  .container {
+    overflow: hidden;
+    max-width: 100%;
+  }
+}
